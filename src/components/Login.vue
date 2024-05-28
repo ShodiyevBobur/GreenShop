@@ -24,7 +24,7 @@
           <input
             class="text-[#A5A5A5] py-2 px-4 border rounded pr-28"
             type="email"
-            placeholder="some@email.com"
+            placeholder="greenshop@email.com"
           />
         </div>
         <div class="p-5">
@@ -33,7 +33,7 @@
             type="password"
             placeholder="password"
           />
-          <img src="../../public/Hide.png" alt="" />
+
         </div>
         <p class="px-5 text-end text-green-400">Forgot Password?</p>
         <button
