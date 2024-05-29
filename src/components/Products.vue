@@ -42,7 +42,7 @@
             <img
               :src="product.image"
               alt="Product Image"
-              class="w-[250px] h-[250px]"
+              class="md:w-[250px] md:h-[250px]"
             />
             <div>
               <h3>{{ product.description }}</h3>

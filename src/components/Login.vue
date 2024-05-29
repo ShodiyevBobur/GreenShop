@@ -2,7 +2,7 @@
   <div>
     <div
       @click="closeModal"
-      class="fixed bg-black/60 top-0 left-0 w-full h-screen z-10"
+      class="fixed bg-black/60 top-0 left-0 w-full h-screen md:h-screen z-10"
     ></div>
     <div
       class="fixed bg-white top-1/2 left-1/2 rounded -translate-x-1/2 -translate-y-1/2 w-[500px] p-5 z-20"
