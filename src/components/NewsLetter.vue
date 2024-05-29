@@ -1,15 +1,15 @@
 <template>
   <div>
     <div class="container">
-      <div class=" grid grid-cols-2 md:flex justify-between">
+      <div class=" grid grid-cols-2 md:gap-0 md:flex justify-between">
         <div v-for="(item, index) in newsletter" :key="index">
           <div>
             <img :src="item.image" alt="" class="w-[85px] h-[85px]" />
             <h3 class="text-[17px] font-bold">{{ item.title }}</h3>
-            <p class="text-[#727272] w-[204px]">{{ item.description }}</p>
+            <p class="text-[#727272] md:w-[204px]">{{ item.description }}</p>
           </div>
         </div>
-        <div class=" col-span-2 grid grid-cols-2 justify-between md:justify-normal  md:w-[30%] md:flex flex-col">
+        <div class=" col-span-2 grid grid-cols-2 w-[98%] justify-between md:justify-normal  md:w-[30%] md:flex flex-col">
           <h3 class=" col-span-2 text-[12px] md:text-[18px] font-bold">
             Would you like to join newsletters?
           </h3>
