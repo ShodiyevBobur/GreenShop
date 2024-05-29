@@ -30,14 +30,14 @@
         </p>
         <div class="px-5">
           <input
-            class="text-[#A5A5A5] py-2 px-4 border rounded w-full"
+            class="text-[#A5A5A5] py-2 px-4 border rounded w-full md:pr-28"
             type="email"
             placeholder="greenshop@email.com"
           />
         </div>
         <div class="p-5">
           <input
-            class="text-[#A5A5A5] py-2 px-4 border rounded pr-28"
+            class="text-[#A5A5A5] py-2 px-4 border rounded w-full md:pr-28"
             type="password"
             placeholder="password"
           />
@@ -130,21 +130,21 @@
         </p>
         <div class="px-5 py-2">
           <input
-            class="text-[#A5A5A5] py-2 px-4 border rounded pr-28"
+            class="text-[#A5A5A5] py-2 px-4 border rounded w-full md:pr-28"
             type="text"
             placeholder="someUsername"
           />
         </div>
         <div class="px-5 py-2">
           <input
-            class="text-[#A5A5A5] py-2 px-4 border rounded pr-28"
+            class="text-[#A5A5A5] py-2 px-4 border rounded w-full md:pr-28"
             type="email"
             placeholder="some@email.com"
           />
         </div>
         <div class="px-5 py-2">
           <input
-            class="text-[#A5A5A5] py-2 px-4 border rounded pr-28"
+            class="text-[#A5A5A5] py-2 px-4 border rounded w-full md:pr-28"
             type="password"
             placeholder="password"
           />
@@ -152,7 +152,7 @@
         </div>
         <div class="px-5 py-2">
           <input
-            class="text-[#A5A5A5] py-2 px-4 border rounded pr-28"
+            class="text-[#A5A5A5] py-2 px-4 border rounded w-full md:pr-28"
             type="password"
             placeholder="Connfirm password"
           />
