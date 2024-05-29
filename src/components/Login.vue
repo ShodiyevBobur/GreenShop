@@ -5,18 +5,26 @@
       class="fixed bg-black/60 top-0 left-0 w-full h-screen md:h-screen z-10"
     ></div>
     <div
-      class="fixed bg-white top-1/2 left-1/2 rounded -translate-x-1/2 -translate-y-1/2 w-[500px] p-5 z-20"
+      class="fixed bg-white top-1/5 md:top-1/2 left-1/2 rounded -translate-x-1/2 md:-translate-y-1/2 w-[95%] md:w-[500px] p-5 z-20"
     >
       <div class="flex justify-end">
         <button @click="closeModal">X</button>
       </div>
       <div class="flex justify-center divide-x-2 divide-green-600">
-        <button @click="content = 'login'" class="py-1 px-5 font-semibold text-xl">login</button>
-        <button @click="content = 'register'" class="py-1 px-5 font-semibold text-[20px]">
+        <button
+          @click="content = 'login'"
+          class="py-1 px-5 font-semibold text-xl"
+        >
+          login
+        </button>
+        <button
+          @click="content = 'register'"
+          class="py-1 px-5 font-semibold text-[20px]"
+        >
           Register
         </button>
       </div>
-      <div v-if="content == 'login'" class="w-[360px] mx-auto">
+      <div v-if="content == 'login'" class="w-full md:w-[360px] mx-auto">
         <p class="text-[#3D3D3D] text-center p-5 text-[14px]">
           Enter your username and password to login.
         </p>
@@ -33,11 +41,10 @@
             type="password"
             placeholder="password"
           />
-
         </div>
         <p class="px-5 text-end text-green-400">Forgot Password?</p>
         <button
-          class="bg-[#46A358] px-[138px] py-2  m-5 my-3 text-white rounded hover:bg-[#266933]"
+          class="bg-[#46A358] px-[138px] py-2 m-5 my-3 text-white rounded hover:bg-[#266933]"
         >
           Login
         </button>
