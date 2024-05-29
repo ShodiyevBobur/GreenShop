@@ -141,7 +141,7 @@
             type="password"
             placeholder="password"
           />
-          <img src="../../public/Hide.png" alt="" />
+          <!-- <img src="../../public/Hide.png" alt="" /> -->
         </div>
         <div class="px-5 py-2">
           <input
@@ -149,7 +149,7 @@
             type="password"
             placeholder="Connfirm password"
           />
-          <img src="../../public/Hide.png" alt="" />
+          <!-- <img src="../../public/Hide.png" alt="" /> -->
         </div>
 
         <button
