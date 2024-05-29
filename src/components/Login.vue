@@ -24,7 +24,7 @@
           Register
         </button>
       </div>
-      <div v-if="content == 'login'" class="w-full md:w-[360px] mx-auto">
+      <div v-if="content == 'login'" class="w-full md:w-[360px] md:mx-auto">
         <p class="text-[#3D3D3D] text-center p-5 text-[14px]">
           Enter your username and password to login.
         </p>

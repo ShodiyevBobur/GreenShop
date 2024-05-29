@@ -6,9 +6,9 @@
         <p class="text-[#727272] text-[12px] md:text-[16px]">
           We are an online plant shop offering a wide range of cheap and trendy
           plants.
-        </p>
+        </p>    
       </div>
-      <div class="md:flex items-center justify-between">
+      <div class=" md:flex items-center justify-between">
         <div
           v-for="(post, index) in blogs"
           :key="index"

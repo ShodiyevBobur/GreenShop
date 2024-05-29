@@ -32,7 +32,7 @@ export default {
       <Products class="md:col-span-3" />
     </div>
     <Specials class="py-3 md:py-10" />
-    <BlogPost class=" py-3 md:py-10" />
+    <BlogPost class= " py-3 md:py-10" />
     <NewsLetter class="py-3 md:py-10 mb-[400px]" />
   </div>
 </template>

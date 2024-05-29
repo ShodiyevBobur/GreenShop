@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="container">
-      <div class="md:flex justify-between">
+      <div class=" grid grid-cols-2 md:flex justify-between">
         <div v-for="(item, index) in newsletter" :key="index">
           <div>
             <img :src="item.image" alt="" class="w-[85px] h-[85px]" />
@@ -9,11 +9,11 @@
             <p class="text-[#727272] w-[204px]">{{ item.description }}</p>
           </div>
         </div>
-        <div class="w-[30%] flex flex-col">
-          <h3 class="text-[18px] font-bold">
+        <div class=" col-span-2 grid grid-cols-2 justify-between md:justify-normal  md:w-[30%] md:flex flex-col">
+          <h3 class=" col-span-2 text-[12px] md:text-[18px] font-bold">
             Would you like to join newsletters?
           </h3>
-          <div class="flex relative py-4 items-center">
+          <div class=" col-span-2 flex relative py-4 items-center">
             <input
               type="text"
               class="drop-shadow-md w-[354px] h-[40px] outline-none px-2 border rounded-md pr-[80px]"
@@ -24,14 +24,14 @@
               Join
             </button>
           </div>
-          <p class="text-[#727272]">
+          <p class="text-[#727272] col-span-2">
             We usually post offers and challenges in newsletter. We’re your
             online houseplant destination. We offer a wide range of houseplants
             and accessories shipped directly from our (green)house to yours!
           </p>
         </div>
       </div>
-      <div class="md:flex py-5 bg-[#46A3581A] gap-[150px] items-center">
+      <div class="  md:flex py-5 bg-[#46A3581A] gap-[150px] items-center ">
         <img src="../assets/Group.png" alt="" />
         <div class="flex gap-3">
           <img src="../assets/location.svg" alt="" />
