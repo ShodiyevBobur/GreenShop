@@ -31,7 +31,7 @@
           </p>
         </div>
       </div>
-      <div class="flex py-5 bg-[#46A3581A] gap-[150px] items-center">
+      <div class="md:flex py-5 bg-[#46A3581A] gap-[150px] items-center">
         <img src="../assets/Group.png" alt="" />
         <div class="flex gap-3">
           <img src="../assets/location.svg" alt="" />
