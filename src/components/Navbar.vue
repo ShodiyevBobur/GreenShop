@@ -52,7 +52,7 @@
             class="focus:border-none focus:outline-none bg-[#F8F8F8] w-full"
           />
         </div>
-        <button class="bg-green-500 p-3 rounded-lg">
+        <button @click="toggleModal" class="bg-green-500 p-3 rounded-lg">
           <svg
             width="22"
             height="22"
