@@ -30,7 +30,7 @@
         </p>
         <div class="px-5">
           <input
-            class="text-[#A5A5A5] py-2 px-4 border rounded pr-28"
+            class="text-[#A5A5A5] py-2 px-4 border rounded w-full"
             type="email"
             placeholder="greenshop@email.com"
           />
