@@ -28,7 +28,7 @@
             Sale
           </a>
         </div>
-        <div class="flex items-center">
+        <div class="hidden md:flex items-center">
           <p class="mr-2">Sort by:</p>
           <select>
             <option value="name">Name</option>
@@ -36,7 +36,7 @@
           </select>
         </div>
       </div>
-      <div class="grid grid-cols-3 mb-8 gap-10">
+      <div class="grid grid-cols-2 md:grid-cols-3 mb-2 md:mb-8  gap-3 md:gap-10">
         <div v-for="(product, index) in products" :key="index">
           <div class="flex flex-col items-start gap-9 py-5 px-4 product_items">
             <img

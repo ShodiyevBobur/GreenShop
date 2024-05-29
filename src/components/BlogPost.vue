@@ -2,20 +2,20 @@
   <div>
     <div class="container">
       <div class="flex flex-col items-center py-8">
-        <h2 class="text-[30px] font-bold">OUR BLOG POST</h2>
-        <p class="text-[#727272]">
+        <h2 class="md:text-[30px] font-bold">OUR BLOG POST</h2>
+        <p class="text-[#727272] text-[12px] md:text-[16px]">
           We are an online plant shop offering a wide range of cheap and trendy
           plants.
         </p>
       </div>
-      <div class="flex items-center justify-between">
+      <div class="md:flex items-center justify-between">
         <div
           v-for="(post, index) in blogs"
           :key="index"
-          class="flex flex-col items-center"
+          class="flex flex-col items-center mt-4"
         >
-          <img :src="post.image" alt="" class="w-[270px] h-[220px]" />
-          <div class="flex px-3 flex-col w-[270px] items-start gap-1">
+          <img :src="post.image" alt="" class=" w-full  md:w-[270px] md:h-[220px]" />
+          <div class="flex  md:px-3 flex-col md:w-[270px] items-start gap-1">
             <p class="text-green-600">{{ post.date }}</p>
             <h3 class="text-[20px] font-bold w-[189px]">{{ post.title }}</h3>
             <p class="text-[#727272]">{{ post.description }}</p>

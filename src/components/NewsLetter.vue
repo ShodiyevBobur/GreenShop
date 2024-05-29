@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="container">
-      <div class="flex justify-between">
+      <div class="md:flex justify-between">
         <div v-for="(item, index) in newsletter" :key="index">
           <div>
             <img :src="item.image" alt="" class="w-[85px] h-[85px]" />

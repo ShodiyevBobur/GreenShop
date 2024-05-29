@@ -241,7 +241,7 @@
 export default {
   data() {
     return {
-      content: "",
+      content: "login",
     };
   },
   methods: {

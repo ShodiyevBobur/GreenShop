@@ -27,13 +27,13 @@ export default {
   <div>
     <Navbar class="pb-9" />
     <MainPage />
-    <div class="grid grid-cols-4 container gap-[50px]">
-      <Categories class="col-span-1" />
-      <Products class="col-span-3" />
+    <div class="grid md:grid-cols-4 container md:gap-[50px]">
+      <Categories class=" hidden md:block md:col-span-1" />
+      <Products class="md:col-span-3" />
     </div>
-    <Specials class="py-10" />
-    <BlogPost class="py-10" />
-    <NewsLetter class="py-10" />
+    <Specials class="py-3 md:py-10" />
+    <BlogPost class=" py-3 md:py-10" />
+    <NewsLetter class="py-3 md:py-10 mb-[400px]" />
   </div>
 </template>
 

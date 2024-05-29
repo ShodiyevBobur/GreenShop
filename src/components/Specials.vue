@@ -1,8 +1,8 @@
 <template>
   <div>
     <div class="container">
-      <div class="flex gap-8 justify-between">
-        <div class="flex">
+      <div class="block  md:flex md:gap-8 justify-between">
+        <div class="flex mb-4 md:mb-0">
           <div class="relative flex">
             <img src="../../public/image 14.png" alt="" />
             <img
@@ -12,15 +12,15 @@
             />
           </div>
           <div class="flex flex-col justify-center items-end gap-5">
-            <h2 class="font-extrabold text-[18px] w-[200px] text-end">
+            <h2 class="font-extrabold text-[12px] md:text-[18px] md:w-[200px] text-end">
               SUMMER CACTUS & SUCCULENTS
             </h2>
-            <p class="font-light text-end w-[300px]">
+            <p class="font-light text-[12px] md:text-[16px] text-end md:w-[300px]">
               We are an online plant shop offering a wide range of cheap and
               trendy plants
             </p>
             <button
-              class="py-3 w-[150px] bg-green-600 border rounded-md text-white"
+              class="md:py-3 md:w-[150px] text-green-600 md:bg-green-600 md:border rounded-md md:text-white"
             >
               Find More ->
             </button>
@@ -37,15 +37,15 @@
           </div>
 
           <div class="flex flex-col justify-center items-end gap-5">
-            <h2 class="font-extrabold text-[18px] w-[200px] text-end">
+            <h2 class="font-extrabold text-[12px] md:text-[18px] md:w-[200px] text-end">
               STYLING TRENDS & MUCH MORE
             </h2>
-            <p class="font-light text-end w-[300px]">
+            <p class="font-light text-[12px] md:text-[16px] text-end md:w-[300px]">
               We are an online plant shop offering a wide range of cheap and
               trendy plants
             </p>
             <button
-              class="py-3 w-[150px] bg-green-600 border rounded-md text-white"
+              class="md:py-3 md:w-[150px] md:bg-green-600 md:border md:rounded-md text-green-600 md:text-white"
             >
               Find More ->
             </button>
