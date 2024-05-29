@@ -19,7 +19,7 @@
             <p class="text-green-600">{{ post.date }}</p>
             <h3 class="text-[20px] font-bold w-[189px]">{{ post.title }}</h3>
             <p class="text-[#727272]">{{ post.description }}</p>
-            <button class="text-semibold">Read More -></button>
+            <button class="text-semibold hover:text-green-600">Read More -></button>
           </div>
         </div>
       </div>
